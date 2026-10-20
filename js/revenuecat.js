@@ -1,16 +1,15 @@
 /***********************************
 
 > ScriptName        𝐑𝐞𝐯𝐞𝐧𝐮𝐞𝐂𝐚𝐭
-> Author            @duyvinh09
-> TgChannel         https://t.me/tienich
-> ScriptURL         https://raw.githubusercontent.com/duyvinh09/Module_IOS/refs/heads/main/js/revenuecat.js
+> Author            @lord207
+> ScriptURL         https://raw.githubusercontent.com/loidz207/LocketGold_byLord/refs/heads/main/js/revenuecat.js
 
 
 [rewrite_local]
 
-# ～ RevenueCat@duyvinh09
-^https:\/\/api\.revenuecat\.com\/.+\/(receipts$|subscribers\/[^/]+$) url script-response-body https://raw.githubusercontent.com/duyvinh09/Module_IOS/refs/heads/main/js/revenuecat.js
-^https:\/\/api\.revenuecat\.com\/.+\/(receipts|subscribers) url script-request-header https://raw.githubusercontent.com/duyvinh09/Module_IOS/refs/heads/main/js/deleteHeader.js
+# ～ RevenueCat@lord207
+^https:\/\/api\.revenuecat\.com\/.+\/(receipts$|subscribers\/[^/]+$) url script-response-body https://raw.githubusercontent.com/loidz207/LocketGold_byLord/refs/heads/main/js/revenuecat.js
+^https:\/\/api\.revenuecat\.com\/.+\/(receipts|subscribers) url script-request-header https://raw.githubusercontent.com/loidz207/LocketGold_byLord/refs/heads/main/js/deleteHeader.js
 
 [mitm]
 
@@ -197,7 +196,7 @@ const mapping = {
 };
 
 // =========    Phần cố định  ========= //
-// =========  @duyvinh09 ========= //
+// =========  @lord207 ========= //
 var _0xodF = "jsjiami.com.v7";
 function _0x52ea(_0x3ea8b3, _0x5559a4) {
   var _0x3b9dd1 = _0x3b9d();
@@ -337,7 +336,7 @@ if (_0x3b9d) {
 var ua = $request.headers[_0x31b760(381, "HT[1")] || $request[_0x31b760(383, "3PCZ")]["user-agent"];
 var obj = JSON[_0x31b760(367, "CQUZ")]($response.body);
 obj[_0x31b760(375, "fyu&")] = _0x31b760(399, "L*8u");
-var duyvinh09 = {
+var lord207 = {
   is_sandbox: false,
   ownership_type: _0x31b760(377, "JPYr"),
   billing_issues_detected_at: null,
@@ -360,9 +359,9 @@ if (match) {
   const [key, product_id] = mapping[match];
   if (product_id) {
     duyvinh[_0x31b760(403, "XJf3")] = product_id;
-    obj[_0x31b760(373, "^J8$")].subscriptions[product_id] = duyvinh09;
+    obj[_0x31b760(373, "^J8$")].subscriptions[product_id] = lord207;
   } else {
-    obj[_0x31b760(362, "JYeS")].subscriptions[_0x31b760(389, "XJf3")] = duyvinh09;
+    obj[_0x31b760(362, "JYeS")].subscriptions[_0x31b760(389, "XJf3")] = lord207;
   }
   obj[_0x31b760(372, "HT[1")][_0x31b760(396, "I8D4")] = {};
   if (key[_0x31b760(384, "q3!$")]("&")) {
@@ -375,7 +374,7 @@ if (match) {
     obj[_0x31b760(400, "Zger")][_0x31b760(379, "JPYr")][key] = duyvinh;
   }
 } else {
-  obj[_0x31b760(385, "vGhG")][_0x31b760(363, "Z#v]")][_0x31b760(397, "mXiu")] = duyvinh09;
+  obj[_0x31b760(385, "vGhG")][_0x31b760(363, "Z#v]")][_0x31b760(397, "mXiu")] = lord207;
   obj.subscriber[_0x31b760(398, "JqZu")][_0x31b760(378, "ZpT*")] = duyvinh;
 }
 console[_0x31b760(394, "!sYB")](_0x31b760(368, "VEJ("));
