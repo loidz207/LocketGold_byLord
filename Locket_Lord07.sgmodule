@@ -1,11 +1,11 @@
-#!url=https://api.dvsteam.vn/Locket_Gold/Shadowrocket/Locket_DVSTEAM.sgmodule
-#!name=dvsteam.vn
-#!desc=DVSTEAM
+#!url=https://raw.githubusercontent.com/loidz207/LocketGold_byLord/refs/heads/main/Locket_Lord07.sgmodule
+#!name=Lord207
+#!desc=Lord207
 
 [Script]
-# ~ By DVSTEAM
+# ~ By Lord207
 # ～ Egern transfer to Shadowrocket & Surge & LanceX
-revenuecat = type=http-response, pattern=^https:\/\/api\.revenuecat\.com\/.+\/(receipts$|subscribers\/[^/]+$), script-path=https://api.dvsteam.vn/Locket_Gold/Shadowrocket/js/Locket_DVSTEAM.js, requires-body=true, max-size=-1, timeout=60
+revenuecat = type=http-response, pattern=^https:\/\/api\.revenuecat\.com\/.+\/(receipts$|subscribers\/[^/]+$), script-path=https://raw.githubusercontent.com/loidz207/LocketGold_byLord/refs/heads/main/js/LocketGold_Lord207.js, requires-body=true, max-size=-1, timeout=60
 
 deleteHeader = type=http-request, pattern=^https:\/\/api\.revenuecat\.com\/.+\/(receipts|subscribers), script-path=https://api.dvsteam.vn/Locket_Gold/Shadowrocket/js/setHeader.js, timeout=60
 
